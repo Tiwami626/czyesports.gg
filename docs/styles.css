@@ -196,6 +196,10 @@ section h2 {
 
 }
 
+p {
+    font-size: 14px;
+}
+
 footer {
     background-color: darkgray;
     color: rgb(0, 0, 0);
@@ -234,7 +238,7 @@ footer {
     header {
         position: relative;
         padding: auto;
-        
+
 
     }
 }
