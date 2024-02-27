@@ -8,7 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
-}
+    }
 
 
 .container {
@@ -19,7 +19,7 @@ body {
 }
 
 
-.socials {
+.socials{
     position: absolute;
     top: auto;
     right: 2%;
@@ -27,20 +27,20 @@ body {
 }
 
 
-.socials a {
+.socials a{
     margin-right: 10px;
 }
 
 
-.socials img {
+.socials img{
     width: auto;
     height: 2vw;
     cursor: pointer;
 }
 
 
-.logo {
-    margin-right: 3%;
+.logo{
+    margin-right: 2%;
     margin-left: 5%;
     cursor: pointer;
 }
@@ -60,87 +60,73 @@ header {
     align-items: center;
 }
 
-nav ul {
-    list-style-type: none;
-}
 
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: ivory;
-    font-size: 1vw;
-    text-decoration: none;
-}
-
-
-/* Style for the dropdown menu */
 .dropdown {
     position: relative;
-}
-
-.dropdown-menu {
+  }
+  
+  .dropdown-menu {
     display: none;
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: rgba(255, 255, 255);
+    background-color: rgba(255,255,255);
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     z-index: 1000;
-}
-
-.dropdown:hover .dropdown-menu {
+  }
+  
+  .dropdown:hover .dropdown-menu {
     display: block;
-}
-
-/* Style for the navigation */
-nav ul {
+  }
+  
+  /* Style for the navigation */
+  nav ul {
+    list-style-type: none;
     list-style: none;
     margin: 0;
     padding: 0;
-
-}
-
-nav ul li {
+    
+  }
+  
+  nav ul li {
     display: inline-block;
     position: relative;
-
-}
-
-nav ul li a {
+    margin-right: 20px;
+    
+  }
+  
+  nav ul li a {
     display: block;
     padding: 10px 20px;
     text-decoration: none;
+    font-size: 16px;
     color: #333;
     border-radius: 5px;
-}
-
-nav ul li:hover>a {
+  }
+  
+  nav ul li:hover > a {
     background-color: #f5f5f5;
-}
-
-/* Style for the dropdown links */
-.dropdown-menu li {
+  }
+  
+  /* Style for the dropdown links */
+  .dropdown-menu li {
     display: block;
 
-}
-
-.dropdown-menu li a {
+  }
+  
+  .dropdown-menu li a {
     padding: 10px 20px;
     color: #333;
     text-decoration: none;
     display: block;
-}
-
-.dropdown-menu li:hover>a {
+  }
+  
+  .dropdown-menu li:hover > a {
     background-color: #f5f5f5;
-
-}
-
+    
+  }
+  
 section {
     padding: 5% 0;
 }
@@ -151,7 +137,7 @@ section h2 {
 }
 
 
-.member {
+.member{
     display: flex;
     overflow-x: auto;
     overflow-y: hidden;
@@ -160,15 +146,14 @@ section h2 {
 }
 
 
-.member img {
+.member img{
     margin: 25px;
     height: auto;
     max-width: 400px;
     border-radius: 20px;
 
 }
-
-.crew {
+.crew{
     display: flex;
     overflow-x: auto;
     overflow-y: hidden;
@@ -176,7 +161,7 @@ section h2 {
 }
 
 
-.crew img {
+.crew img{
     margin: 30px;
     height: auto;
     max-width: 400px;
@@ -186,8 +171,8 @@ section h2 {
     scroll-snap-align: start;
 }
 
-.store img {
-    max-width: 400px;
+.store img{
+   max-width: 400px;
     height: auto;
     margin: 20px 0;
     padding: 0;
@@ -195,50 +180,55 @@ section h2 {
     border-radius: 20px;
 
 }
-
-p {
+p{
     font-size: 14px;
 }
 
 footer {
     background-color: darkgray;
-    color: rgb(0, 0, 0);
+    color: rgb(0,0,0);
     text-align: center;
     padding: 0.5% 0;
 }
-
-@media (max-width: 640px) {
+@media (max-width: 642px){
     .container {
         margin: 0 auto;
+        max-width: 642px;
         padding: 2% 5%;
         box-sizing: border-box;
     }
-}
-
-@media (max-width: 768px) {
-    .section {
+    } 
+@media (max-width: 768px){
+        .section{
         width: 1.5rem;
         height: 1.5rem;
+        }
+    }
+@media (max-width: 642px){
+        h2{
+            font-size: 2vw;
+        }
+    }
+@media (max-width: 640px){
+        p{
+            font-size: 11px;
+        }
+    }
+@media (max-width: 642px){
+    header, footer{
+    max-width: 642px;
+    padding: 0;
+    margin: auto;
+    text-align: center;
     }
 }
-
-@media (max-width: 640px) {
-    h2 {
-        font-size: 16px;
-    }
+@media (max-width: 768px){
+    nav ul li a{
+        max-width: 642px;
+        padding: 0;
+        font-size: 12px;
+           }
 }
 
-@media (max-width: 640px) {
-    p {
-        font-size: 11px;
-    }
-}
-
-@media (max-width: 768px) {
-    header {
-        position: relative;
-        padding: auto;
 
 
-    }
-}
