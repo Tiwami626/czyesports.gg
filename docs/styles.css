@@ -203,31 +203,35 @@ footer {
     padding: 0.5% 0;
 }
 
-@media (max-width: 640px){
+@media (max-width: 640px) {
     .container {
         margin: 0 auto;
         padding: 2% 5%;
         box-sizing: border-box;
     }
-    } 
-@media (max-width: 768px){
-        .section{
+}
+
+@media (max-width: 768px) {
+    .section {
         width: 1.5rem;
         height: 1.5rem;
-        }
     }
-@media (max-width: 640px){
-        h2{
-            font-size: 2vw;
-        }
+}
+
+@media (max-width: 640px) {
+    h2 {
+        font-size: 2vw;
     }
-@media (max-width: 640px){
-        p{
-            font-size: 11px;
-        }
+}
+
+@media (max-width: 640px) {
+    p {
+        font-size: 11px;
     }
-@media (max-width: 768px){
-    header{
+}
+
+@media (max-width: 768px) {
+    header {
         position: relative;
 
     }
