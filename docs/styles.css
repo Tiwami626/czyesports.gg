@@ -203,7 +203,7 @@ footer {
     padding: 0.5% 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1284px) {
     .container {
         width: 100%;
         margin: 0 auto;
