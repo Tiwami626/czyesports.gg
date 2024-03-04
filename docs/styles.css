@@ -7,11 +7,11 @@
 }
 
 body {
-    font-family: "Exo 2", sans-serif;
+    font-family: "Exo 2";
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    background-color: lightgrey;
+    background-color: white;
     }
 
 /* Hero Section*/
@@ -107,6 +107,9 @@ header {
     padding: 10px 20px;
     text-decoration: none;
     font-size: 16px;
+    font-style: oblique;
+    font-display: auto;
+    font-weight: bold;
     color: black;
     border-radius: 5px;
   }
@@ -194,8 +197,8 @@ p{
 }
 
 footer {
-    background-color: darkgray;
-    color: rgb(0,0,0);
+    background-color: whitesmoke;
+    color:black;
     text-align: center;
     padding: 0.5% 0;
 }
