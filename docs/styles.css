@@ -198,13 +198,16 @@ section h2 {
 
 }
 p{
-    font-size: 14px;
+    font-size: 16px;
 }
 
 footer {
-    position: relative;
+    position: fixed;
+    bottom: 0;
     background-color: whitesmoke;
-    color:black;
+    color: black;
     text-align: center;
-    margin-top: 5rem;
+    width: 100%; /* Ensure footer spans the entire width */
+    padding: 20px 0; /* Adjust padding as needed */
 }
+
