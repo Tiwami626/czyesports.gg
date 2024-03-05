@@ -26,20 +26,28 @@ body {
 
 .socials{
     position: absolute;
-    top: auto;
     right: 2%;
     margin-right: 10px;
+   
 }
 
 
 .socials a{
     margin-right: 10px;
+    padding-right: 1.5rem;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.socials a:hover{
+  transform: scale(2);
+
 }
 
 
 .socials img{
-    width: auto;
-    height: 2vw;
+    width: 25px;
+    height: 25px;
     cursor: pointer;
 }
 
